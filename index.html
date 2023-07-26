@@ -2,20 +2,20 @@
 <html lang="en">
 
 <head>
-    <title>Zay Shop eCommerce HTML CSS Template</title>
+    <title>Natura</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/templatemo.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/templatemo.css">
+    <link rel="stylesheet" href="css/custom.css">
 
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
 <!--
     
 TemplateMo 559 Zay Shop
@@ -26,212 +26,434 @@ https://templatemo.com/tm-559-zay-shop
 </head>
 
 <body>
-    <!-- Start Top Nav -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
-        <div class="container text-light">
-            <div class="w-100 d-flex justify-content-between">
-                <div>
-                    <i class="fa fa-envelope mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">info@company.com</a>
-                    <i class="fa fa-phone mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
-                </div>
-                <div>
-                    <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <!-- Close Top Nav -->
-
-
-    <!-- Header -->
+        <!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-light shadow">
         <div class="container d-flex justify-content-between align-items-center">
-
             <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
-                Zay
+                <img src="img/favicon.png" width="80px" alt="">
             </a>
-
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="about.html">Beneficios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="shop.html">Shop</a>
+                            <a class="nav-link" href="shop.html">Requisitos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="contact.html">Registro</a>
                         </li>
                     </ul>
                 </div>
-                <div class="navbar align-self-center d-flex">
-                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
-                        <div class="input-group">
-                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
-                            <div class="input-group-text">
-                                <i class="fa fa-fw fa-search"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
-                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
-                    </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
-                        <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
-                    </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
-                        <i class="fa fa-fw fa-user text-dark mr-3"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
-                    </a>
-                </div>
             </div>
-
         </div>
     </nav>
     <!-- Close Header -->
-
-    <!-- Modal -->
-    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="w-100 pt-1 mb-5 text-right">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <form action="" method="get" class="modal-content modal-body border-0 p-0">
-                <div class="input-group mb-2">
-                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
-                    <button type="submit" class="input-group-text bg-success text-light">
-                        <i class="fa fa-fw fa-search text-white"></i>
-                    </button>
-                </div>
-            </form>
-        </div>
-    </div>
 
 
 
     <!-- Start Banner Hero -->
     <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
-        </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/banner_img_01.jpg" alt="">
+                            <img class="img-fluid" src="img/banner_img_01.jpg" alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left align-self-center">
-                                <h1 class="h1 text-success"><b>Zay</b> eCommerce</h1>
-                                <h3 class="h2">Tiny and Perfect eCommerce Template</h3>
-                                <p>
-                                    Zay Shop is an eCommerce HTML5 CSS template with latest version of Bootstrap 5 (beta 1). 
-                                    This template is 100% free provided by <a rel="sponsored" class="text-success" href="https://templatemo.com" target="_blank">TemplateMo</a> website. 
-                                    Image credits go to <a rel="sponsored" class="text-success" href="https://stories.freepik.com/" target="_blank">Freepik Stories</a>,
-                                    <a rel="sponsored" class="text-success" href="https://unsplash.com/" target="_blank">Unsplash</a> and
-                                    <a rel="sponsored" class="text-success" href="https://icons8.com/" target="_blank">Icons 8</a>.
+                                <h1 class=" text-primary"><b>Conviértete en Consultora de belleza</b> </h1>
+                                <h3 class="">¡Únete a Natura como Consultora y descubre un mundo de belleza y bienestar!</h3>
+                                <p>¡Bienvenida a la comunidad Natura! Si amas la naturaleza, los productos de belleza naturales y el emprendimiento, este es el lugar perfecto para ti
                                 </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/banner_img_02.jpg" alt="">
-                        </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left">
-                                <h1 class="h1">Proident occaecat</h1>
-                                <h3 class="h2">Aliquip ex ea commodo consequat</h3>
-                                <p>
-                                    You are permitted to use this Zay CSS template for your commercial websites. 
-                                    You are <strong>not permitted</strong> to re-distribute the template ZIP file in any kind of template collection websites.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/banner_img_03.jpg" alt="">
-                        </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left">
-                                <h1 class="h1">Repr in voluptate</h1>
-                                <h3 class="h2">Ullamco laboris nisi ut </h3>
-                                <p>
-                                    We bring you 100% free CSS templates for your websites. 
-                                    If you wish to support TemplateMo, please make a small contribution via PayPal or tell your friends about our website. Thank you.
-                                </p>
+                                <a class="btn btn-primary shadow small" href="#registro"> Regístrate aquí</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
-            <i class="fas fa-chevron-left"></i>
-        </a>
-        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
-            <i class="fas fa-chevron-right"></i>
-        </a>
     </div>
     <!-- End Banner Hero -->
+
+
+    <div class="container-fluid py-5  ">
+        <div class="row px-xl-5 py-3">
+            <div class="col-12 col-lg-6  mb-4  px-xl-5 " style="display: flex; align-content: center; flex-direction: column; margin-top: auto;margin-bottom: auto;">
+                <h2 class="font-weight-bold mb-3 ">Forma parte de la familia Natura: Regístrate y comienza tu viaje hacia una vida más natural.</h2>
+                <div class="barrita2 mb-3"></div>
+                <p class="mb-4">¿Quieres un trabajo donde puedas ser tu propia jefa y trabajar en armonía con la naturaleza? Regístrate como Consultora Natura y únete a un equipo comprometido con la belleza sostenible. Descubre el poder de nuestros productos y la satisfacción de compartirlos con otros. ¡Sé parte de nuestro movimiento hoy mismo!</p>
+                <p><a class="btn btn-primary px-4 text-white shadow" href="#registro" style="border-radius: 20px;">Regístrate aquí</a></p>
+            </div>
+            <div class="col-12 col-lg-6 mb-4 text-center px-xl-5">
+                <div class="ratio ratio-16x9 " style="margin-right:auto;margin-left:auto; aspect-ratio: 16 / 9;max-width:900px;">
+                    <iframe class="rounded shadow" src="https://www.youtube.com/embed/7IjsNdp48bU" title="YouTube video" allowfullscreen style="max-width:900px;border: none;" width="100%" height="350px"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="service_section layout_padding bg-light">
+        <div class="container">
+            <h2 class="custom_heading mb-4 text-center">Beneficios y ventajas de Vender Natura en México</h2>
+            <div class="row">
+                <div class="col-12 col-lg-3 mb-3">
+                    <div class="card h-100 shadow rounded">
+                        <div class="card-body">
+                            <i class="fas fa-percentage text-primary mb-2" style="font-size:35px;"> </i>
+                            <h5 class="card-title">Descuentos en productos </h5>
+                            <p class="card-text">Aprovecha los decuentos exclusivos a consultoras y genera ganancias netas hasta del 150% por la venta de productos natura. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 mb-3">
+                    <div class="card h-100 shadow rounded">
+                        <div class="card-body">
+                            <i class="fas fa-shipping-fast text-primary mb-2" style="font-size:35px;"> </i>
+                            <h5 class="card-title">Pedidos a domicilio</h5>
+                            <p class="card-text"> Natura cuenta con un sistema automatizado de entrega de productos que te ahorrará dificultades con tus pedidos. ¡Ordena desde la app y recibe tu pedido en casa! </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 mb-3">
+                    <div class="card h-100 shadow rounded">
+                        <div class="card-body">
+                            <i class="fas fa-credit-card text-primary mb-2" style="font-size:35px;"> </i>
+                            <h5 class="card-title">Opción a crédito</h5>
+                            <p class="card-text">Comienza a vender productos natura sin inversión inicial con ayuda de un crédito, inicia tu propio negocio con Natura fácilmente y paga en un plazo de 21 días. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 mb-3">
+                    <div class="card h-100 shadow rounded">
+                        <div class="card-body">
+                            <i class="fas fa-users text-primary mb-2" style="font-size:35px;"> </i>
+                            <h5 class="card-title">Capacitación y seguimiento</h5>
+                            <p class="card-text">Recibe acceso a cursos y entrenamientos gratuitos que serán la base de tu formación e impulsarán tus ventas y tu negocio. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 mb-3">
+                    <div class="card h-100 shadow rounded">
+                        <div class="card-body">
+                            <i class="fas fa-users-cog text-primary mb-2" style="font-size:35px;"> </i>
+                            <h5 class="card-title">Crecimiento y desarrollo</h5>
+                            <p class="card-text">Natura cuenta con una red sustentable de relaciones solo para lìederes con la que puedes incrementar exponencialmente tus ingresos. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 mb-3">
+                    <div class="card h-100 shadow rounded">
+                        <div class="card-body">
+                            <i class="fas fa-trophy text-primary mb-2" style="font-size:35px;"> </i>
+                            <h5 class="card-title">Premios y reconocimientos</h5>
+                            <p class="card-text">Gana productos, reconocimientos, premios y viajes con las campañas de actividad a lo largo del año. ¡Comienza a vender Natura! </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 mb-3">
+                    <div class="card h-100 shadow rounded">
+                        <div class="card-body">
+                            <i class="fas fa-star text-primary mb-2" style="font-size:35px;"> </i>
+                            <h5 class="card-title">Productos de calidad</h5>
+                            <p class="card-text">Productos de alta demanda, de origen vegetal, activos cultivados de manera sustentable, empaques reciclables y repuestos hacen de Natura una empresa 100% sustentable. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 mb-3">
+                    <div class="card h-100 shadow rounded">
+                        <div class="card-body">
+                            <i class="fas fa-money-bill-wave text-primary mb-2" style="font-size:35px;"> </i>
+                            <h5 class="card-title">Decide cuánto ganas</h5>
+                            <p class="card-text">No existen límites cuando se trata de los ingresos que puedes generar en Natura. Inicia como consultora y descubre otras formas de impulsar el crecimiento de tu negocio. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="container-fluid py-5 ">
+        <div class="container py-5">
+            <div class="  pt-4">
+                <h4 class="text-center fs-5 "> Obtén increíbles beneficios</h4>
+                <h2 class="text-center pb-3 text-primary"> Regístrate como Consultora y sube al nivel Zafiro </h2>
+                <p class="text-center"> Estas consultoras alcanzaron el nivel zafiro y ganaron la Convención anual de
+                    consultores Zafiro-Diamante, tu también sube de nivel y ganan increíbles premios como este.
+                    Regístrate hoy mismo y comienza a vender Natura en México </p>
+                <div class="mb-4">
+                    <div class="row">
+                        <div class="col-2">
+                            <img class="img-fluid" src="img/mizafiro.png" alt="">
+                        </div>
+                        <div class="col-8">
+                            <h3 class="font-weight-bold text-uppercase" style="color:#553E94;">Zafiro</h3>
+                            <p> Desde $40,001 hasta $120,000 Precio Revista</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="mb-4" style="background-color: #553E94;">
+                            <h5 class="text-center text-white mb-0 font-weight-bold py-3">Convención Anual de
+                                Consultores Zafiro-Diamante Cancún 2022 </h5>
+                        </div>
+                        <div style="width: 100%; margin-left: auto;margin-right: auto;">
+                            <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active ">
+                                        <div class="slider_item-box">
+                                            <div class="slider_item-container">
+                                                <div class="">
+                                                    <img class=" img-fluid" src="img/convencionzafiro-1.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="slider_item-box">
+                                            <div class="slider_item-container">
+                                                <div class="">
+                                                    <div>
+                                                        <img class="img-fluid" src="img/convencionzafiro-2.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="slider_item-box">
+                                            <div class="slider_item-container">
+                                                <div class="">
+                                                    <div>
+                                                        <img class="img-fluid" src="img/convencionzafiro-3.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="slider_item-box">
+                                            <div class="slider_item-container">
+                                                <div class="">
+                                                    <div>
+                                                        <img class=" img-fluid" src="img/convencionzafiro-4.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="custom_carousel-control">
+                                    <a class="carousel-control-prev" href="#carouselExampleControls3" role="button"
+                                        data-slide="prev">
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleControls3" role="button"
+                                        data-slide="next">
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="mb-4">
+                            <h5 class="text-center mb-0 py-3 font-weight-bold" style="color: #553E94;">Conoce el destino
+                                de la Convención Anual de Consultores Zafiro-Diamantes 2023</h5>
+                        </div>
+                        <video class="img-fluid" src="img/convencion-zafiro-diamante-2023.mp4" controls
+                            oncontextmenu="return false;"> </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Initialize Swiper -->
+
+    <!--seccion-->
+    <div class="container-fluid  pb-5 bg-light">
+        <div class="container pt-5">
+            <div class="  pt-4">
+                <h4 class="fs-5 text-center"> ¿POR QUÉ VENDER NATURA EN MÉXICO? </h4>
+                <h2 class="pb-3 text-primary text-center">Decide cambiar tu vida ahora </h2>
+                <div class="row">
+                    <div class="col">
+                        <p class=""> <strong> Vender Natura en México </strong> es mucho más que solo generar ingresos
+                            adicionales de manera independiente... también es crecer y desarrollarte de manera personal
+                            y profesional, construir relaciones perdurables, promover y ser parte del cuidado del medio
+                            ambiente, la sustentabilidad, el bienestar, el cuidado personal, la belleza natural y el
+                            emprendimiento y sobre todo que trabajes bajo tus propios horarios para que le dediques más
+                            tiempo a lo que te importa, tus seres queridos.</p>
+                    </div>
+                    <div class="col">
+                        <video class="img-fluid" src="img/momento-reconocimiento.mp4" controls
+                            oncontextmenu="return false;"> </video>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 
     <!-- Start Categories of The Month -->
     <section class="container py-5">
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
-                <h1 class="h1">Categories of The Month</h1>
-                <p>
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                </p>
+                <h1 class="">Categories of The Month</h1>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_01.jpg" class="rounded-circle img-fluid border"></a>
+            <div class="col-12 col-md-3 p-5 mt-3">
+                <a href="#"><img src="img/category_img_01.jpg" class="rounded-circle img-fluid border"></a>
                 <h5 class="text-center mt-3 mb-3">Watches</h5>
                 <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
             </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_02.jpg" class="rounded-circle img-fluid border"></a>
+            <div class="col-12 col-md-3 p-5 mt-3">
+                <a href="#"><img src="img/category_img_02.jpg" class="rounded-circle img-fluid border"></a>
                 <h2 class="h5 text-center mt-3 mb-3">Shoes</h2>
                 <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
             </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_03.jpg" class="rounded-circle img-fluid border"></a>
+            <div class="col-12 col-md-3 p-5 mt-3">
+                <a href="#"><img src="img/category_img_03.jpg" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Accessories</h2>
+                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+            </div>
+            <div class="col-12 col-md-3 p-5 mt-3">
+                <a href="#"><img src="img/category_img_03.jpg" class="rounded-circle img-fluid border"></a>
                 <h2 class="h5 text-center mt-3 mb-3">Accessories</h2>
                 <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
             </div>
         </div>
     </section>
     <!-- End Categories of The Month -->
+
+    <section class="container-fluid py-5 bg-light">
+        <div class="container">
+            <h3 class="text-center mb-0"> Resuelve tus dudas, no esperes más, <br> <strong class="text-primary">
+                    ¡Regístrate y comienza a vender Natura hoy! </strong> </h3>
+            <div class="">
+                <div class="container pb-5 pt-5  ">
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 ">
+                        <div class="col ">
+                            <h5 class="fs-5 fw-bolder mb-5">Requisitos <u> obligatorios </u> para ser Consultora Natura:
+                            </h5>
+                            <p> <i class="bi bi-file-earmark-text fs-1 text-primary"></i> &nbsp; &nbsp;
+                                <strong>Comprobante de Domicilio </strong>
+                            </p>
+                            <p> <i class="bi bi-credit-card-2-front fs-1 text-primary"></i> &nbsp; &nbsp; <strong>
+                                    Identificacion oficial </strong> </p>
+                            <p class="mt-5"> <strong>Importante: </strong> Deberás llenar los datos del formulario de
+                                este sitio y enviar copia o captura de tu identificación y comprobante a <strong>
+                                    info@vendernaturaregistro.com</strong> para completar correctamente tu registro.</p>
+                        </div>
+                        <div class="col">
+                            <h5 class="fs-5 fw-bolder mb-4">Sigue las instrucciones para completar tu registro:</h5>
+                            <div class="card mb-2 shadow">
+                                <div class="card-body">
+                                    <h6 class="card-title mb-0">Completa correctamente tu registro</h6>
+                                    <p class="card-text text-muted mb-0">Completa el formulario de este sitio y envía tu
+                                        documentación.</p>
+                                </div>
+                            </div>
+                            <div class="card mb-2 shadow">
+                                <div class="card-body">
+                                    <h6 class="card-title mb-0">Recibe ayuda para realizar tu pedido</h6>
+                                    <p class="card-text text-muted mb-0">Una vez registrado(a), realiza tu primer pedido
+                                        como consultora natura.</p>
+                                </div>
+                            </div>
+                            <div class="card mb-2 shadow">
+                                <div class="card-body">
+                                    <h6 class="card-title mb-0">Vende productos natura y obtén ingresos</h6>
+                                    <p class="card-text text-muted mb-0">Ofrece una consultoría de calidad a tus
+                                        clientes y obtén ingresos cada ciclo de ventas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h5 class="mb-0 font-weight-bold text-dark"> ¿Qué necesito para unirme a Natura?</h5>
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                        <p> Iniciar como Consultora Natura el unico requisitos es ser mayor de edad, contando ya con tu
+                            <strong> identificación oficial (INE)</strong> o en caso opcional con pasaporte y tu
+                            <strong> comprobante de domicilio</strong> de tu direcciíon de entrega para tus pedidos
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h5 class="mb-0 font-weight-bold text-dark"> ¿Cómo se gana con Natura? </h5>
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body"> Existen 5 formas de ganar con Natura <br> <strong> Venta Directa:</strong>
+                        Como consultora Natura tienes un 30% menos IVA de Descuento en todos los productos de revista
+                        (Excepto Creer para Ver) <br><strong>Camino de Crecimiento:</strong> Niveles que te harán ganar
+                        por los montos de tus pedidos <br><strong>Invita y Gana:</strong> Invita a personas y aumenta
+                        tus ganancias, obtén producto de regalo <br><strong>Ventas Especiales:</strong> Descuentos con
+                        hasta 70% de descuento en ocasiones especiales <br> <strong>Campañas Especiales:</strong> Gana
+                        accesorios exclusivos o producto de regalo por tu actividad <br><strong> Muy pronto existirán
+                            dos nuevas formas de ganar con Natura... ¡Mantente atento/a! </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <h5 class="mb-0 font-weight-bold text-dark"> ¿Cómo se maneja Natura? </h5>
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body"> La Venta directa en Natura o Venta por Catálogo funciona bajo un sistema de
+                        Ciclos de 21 días, durante el año existen <strong> 17 ciclos</strong>, buscando mantener un
+                        constante flujo de ventas, cada ciclo cambia de revista y con ello nuevos lanzamientos, ofertas
+                        y regalos que puede aprovechar una Consultora Natura y siempre tener algo nuevo que ofrecer a
+                        sus clientes
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- Start Featured Product -->
@@ -250,7 +472,7 @@ https://templatemo.com/tm-559-zay-shop
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="./assets/img/feature_prod_01.jpg" class="card-img-top" alt="...">
+                            <img src="img/feature_prod_01.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -274,7 +496,7 @@ https://templatemo.com/tm-559-zay-shop
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="./assets/img/feature_prod_02.jpg" class="card-img-top" alt="...">
+                            <img src="img/feature_prod_02.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -298,7 +520,7 @@ https://templatemo.com/tm-559-zay-shop
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="./assets/img/feature_prod_03.jpg" class="card-img-top" alt="...">
+                            <img src="img/feature_prod_03.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -325,107 +547,37 @@ https://templatemo.com/tm-559-zay-shop
     <!-- End Featured Product -->
 
 
+    <section class="bg-light">
+        <div class="container py-5">  
+            <h1 class="text-center">Comienza tu registro aquí</h1>
+            <p class="text-center"> Recuerda que al finalizar tu registro deberás enviar tus documentos al siguiente correo info@natura </p>  
+
+        </div>
+    </section>
+
     <!-- Start Footer -->
     <footer class="bg-dark" id="tempaltemo_footer">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Zay Shop</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li>
-                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                            123 Consectetur at ligula 10660
-                        </li>
-                        <li>
-                            <i class="fa fa-phone fa-fw"></i>
-                            <a class="text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none" href="mailto:info@company.com">info@company.com</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Luxury</a></li>
-                        <li><a class="text-decoration-none" href="#">Sport Wear</a></li>
-                        <li><a class="text-decoration-none" href="#">Men's Shoes</a></li>
-                        <li><a class="text-decoration-none" href="#">Women's Shoes</a></li>
-                        <li><a class="text-decoration-none" href="#">Popular Dress</a></li>
-                        <li><a class="text-decoration-none" href="#">Gym Accessories</a></li>
-                        <li><a class="text-decoration-none" href="#">Sport Shoes</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Home</a></li>
-                        <li><a class="text-decoration-none" href="#">About Us</a></li>
-                        <li><a class="text-decoration-none" href="#">Shop Locations</a></li>
-                        <li><a class="text-decoration-none" href="#">FAQs</a></li>
-                        <li><a class="text-decoration-none" href="#">Contact</a></li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <div class="row text-light mb-4">
-                <div class="col-12 mb-3">
-                    <div class="w-100 my-3 border-top border-light"></div>
-                </div>
-                <div class="col-auto me-auto">
-                    <ul class="list-inline text-left footer-icons">
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-auto">
-                    <label class="sr-only" for="subscribeEmail">Email address</label>
-                    <div class="input-group mb-2">
-                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
-                        <div class="input-group-text btn-success text-light">Subscribe</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div class="w-100 bg-black py-3">
             <div class="container">
                 <div class="row pt-2">
-                    <div class="col-12">
-                        <p class="text-left text-light">
-                            Copyright &copy; 2021 Company Name 
-                            | Designed by <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
-                        </p>
+                    <div class="col-12 col-lg-6">
+                        <p class="text-left text-light"> Natura  </p>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <p class="text-end text-light"><a href="privacidad.html"> Aviso de Privacidad  </a></p>
                     </div>
                 </div>
             </div>
         </div>
-
     </footer>
     <!-- End Footer -->
 
     <!-- Start Script -->
-    <script src="assets/js/jquery-1.11.0.min.js"></script>
-    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/templatemo.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/templatemo.js"></script>
+    <script src="js/custom.js"></script>
     <!-- End Script -->
 </body>
 
